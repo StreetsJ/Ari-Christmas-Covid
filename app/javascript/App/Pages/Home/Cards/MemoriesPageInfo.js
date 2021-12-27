@@ -1,6 +1,8 @@
 import React from "react";
 import { CardContent, CardHeader, CardMedia, Paper, Typography } from '@mui/material';
 import momAriTree from '../../../../../assets/images/gallery/IMG_6351.jpeg'
+import testmp4 from '../../../../../assets/images/videos/THE video.mp4'
+import test2mp4 from '../../../../../assets/images/videos/FlashOfPhotosFromCarInFlorida.MOV'
 
 const MemoriesPageInfo = () => {
   return (
@@ -10,10 +12,18 @@ const MemoriesPageInfo = () => {
           title="Memories Page"
           subheader="The visual representation of my love for you"
         />
-        <CardMedia
+        {/* <CardMedia
           component="img"
           src={momAriTree}
           height="380"
+        /> */}
+        <CardMedia
+          component='video'
+          src={testmp4}
+          height="380"
+          autoPlay
+          loop
+          controls
         />
         <CardContent>
           <Typography variant="body1">

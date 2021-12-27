@@ -31,6 +31,8 @@ default: &default
     - .ttf
     - .woff
     - .woff2
+    - .mp4
+    - .mov
 
   extensions:
     - .jsx
