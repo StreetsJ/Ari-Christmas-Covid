@@ -9,18 +9,6 @@ import App from '../App/App'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import background from '../../assets/images/chirsitmas-backgound-2.jpg'
 
-const Hello = props => (
-  <div>Hello {props.name}!</div>
-)
-
-Hello.defaultProps = {
-  name: 'David'
-}
-
-Hello.propTypes = {
-  name: PropTypes.string
-}
-
 const myStyle={
   backgroundImage: 
   `url(${background})`,
